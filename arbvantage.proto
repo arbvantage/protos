@@ -10,7 +10,8 @@ message TaskResult {
     string provider_name = 2;
     string auth_token = 3;
     string status = 4;
-    string result = 5;
+    string action = 5;
+    string result = 6;
 }
 
 message Task {
