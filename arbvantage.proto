@@ -11,7 +11,8 @@ message TaskResult {
     string auth_token = 3;
     string status = 4;
     string action = 5;
-    string result = 6;
+    string payload = 6;
+    string result = 7;
 }
 
 message Task {
