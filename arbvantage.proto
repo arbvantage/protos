@@ -17,7 +17,7 @@ message TaskResult {
 message Task {
     string task_id = 1;
     string action = 2;
-    bytes data = 3;
+    bytes payload = 3;
 }
 
 service Hub {
