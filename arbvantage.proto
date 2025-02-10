@@ -19,6 +19,7 @@ message Task {
     string task_id = 1;
     string action = 2;
     bytes payload = 3;
+    map<string, string> account = 4;
 }
 
 service Hub {
